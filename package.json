@@ -1,0 +1,30 @@
+{
+  "name": "simple-url-shortener-ts-express",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "eslint --fix ./src"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.0.3",
+    "envalid": "^7.3.1",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
